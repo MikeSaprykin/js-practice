@@ -10,10 +10,10 @@ describe('findLongestWordLength function tests, declarative style ', () => {
        expect(findLongestWordLength).toBeDefined()
     });
 
-    it('should return expected length of the word using the params equal to each result', () => {
-        testParams.forEach(({param, result}) => {
+    testParams.forEach(({ param, result }) => {
+        it(`should return ${JSON.stringify(result)} using ${JSON.stringify(param)}`, () => {
             expect(findLongestWordLength(param)).toEqual(result)
-        });
+        })
     });
 
 });
@@ -24,10 +24,10 @@ describe('findLongestWordLength2 function tests, imperative style ', () => {
         expect(findLongestWordLength2).toBeDefined()
     });
 
-    it('should return expected length of the word using the params equal to each result', () => {
-        testParams.forEach(({param, result}) => {
+    testParams.forEach(({ param, result }) => {
+        it(`should return ${JSON.stringify(result)} using the param: ${JSON.stringify(param)}` , () => {
             expect(findLongestWordLength2(param)).toEqual(result)
-        });
+        })
     });
 
 });
