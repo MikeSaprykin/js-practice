@@ -33,7 +33,7 @@ Travis basic integration added, to run the tests, when pushed to master.
  of functional programming =D
  
 ## Project structure
-Current folder structure looking: (version: 0.0.6)
+Current folder structure looking: (version: 0.0.7)
 ```
 .
 ├── .babelrc                                        # Babel configuration file
@@ -46,12 +46,13 @@ Current folder structure looking: (version: 0.0.6)
 ├── src                                             # Project source files folder
 │   └── free_code_camp                              # FreeCodeCamp tasks folder
 │       └── basic-algorithm-scripting               # Basic algorithm scripting tasks
+│           ├── confirm-ending                      # Confirm ending functions and tests
 │           ├── factorialize                        # Factorialize functions and tests
-│           └── reverse-string                      # Reverse string functions and tests
-|           └── palindrome                          # Palindrome task and tests
-|           └── longest-word-length                 # Longest word length task and tests
-|           └── title-case-sentence                 # Title case sentece task
 |           └── largest-numbers-in-arrays           # Largest numbers in arrays task
+|           └── longest-word-length                 # Longest word length task and tests
+|           └── palindrome                          # Palindrome task and tests
+│           └── reverse-string                      # Reverse string functions and tests
+|           └── title-case-sentence                 # Title case sentece task
 └── webpack.config.js                               # Webpack config file
 ```
  
