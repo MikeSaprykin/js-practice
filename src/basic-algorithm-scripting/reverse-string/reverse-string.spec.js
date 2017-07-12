@@ -6,7 +6,7 @@ import {
 const params = 'Hello!';
 const expectedResult = '!olleH';
 
-describe('declarative reverse string tests', () => {
+describe('declarative reverseString function tests: ', () => {
 
     it('should be defined', () => {
         expect(reverseString).toBeDefined();
@@ -17,7 +17,7 @@ describe('declarative reverse string tests', () => {
     });
 });
 
-describe('imperative reverse string tests', () => {
+describe('imperative reverseString functions tests: ', () => {
 
     it('should be defined', () => {
         expect(reverseString2).toBeDefined();
