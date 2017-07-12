@@ -1,6 +1,6 @@
 {
   "name": "js-stuff",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Some practisec in JavaScript",
   "main": "index.js",
   "scripts": {
@@ -41,6 +41,7 @@
     "develop": "^1.0.0",
     "karma": "^1.7.0",
     "karma-phantomjs-launcher": "^1.0.4",
+    "karma-phantomjs-shim": "^1.4.0",
     "lodash": "^4.17.4",
     "save": "^2.3.1"
   }
