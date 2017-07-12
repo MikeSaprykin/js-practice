@@ -36,18 +36,18 @@ Travis basic integration added, to run the tests, when pushed to master.
 Current folder structure looking: (version: 0.0.2)
 ```
 .
+├── .babelrc                                        # Babel configuration file
+├── .travis.yml                                     # Travis-CI configuration file
 ├── README.md                                       # Project README
 ├── config                                          # Webpack configuration files
-│   ├── helpers.js                                  # Helpers functions
-│   ├── karma.conf.js                               # Karma configuration file
-│   ├── test.entry.js                               # Karma test entry file
-│   └── webpack.test.js                             # Webpack testing config file
-├── coverage                                        # Folder with generated code coverage
-├── karma.conf.js                                   # Index Karma config file 
+├── coverage                                        # Folder with generated code coverage   
+├── karma.conf.js                                   # Index Karma config file
 ├── package.json                                    # Project package.json
 ├── src                                             # Project source files folder
-│   └── basic-algorithm-scripting                   # Folder of basic algorithm scripting tasks
-│       └── reverse-string                          # Reverse string task
+│   └── free_code_camp                              # FreeCodeCamp tasks folder
+│       └── basic-algorithm-scripting               # Basic algorithm scripting tasks
+│           ├── factorialize                        # Factorialize functions and tests
+│           └── reverse-string                      # Reverse string functions and tests
 └── webpack.config.js                               # Webpack config file
 ```
  
