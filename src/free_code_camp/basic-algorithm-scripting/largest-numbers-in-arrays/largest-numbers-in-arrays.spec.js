@@ -16,7 +16,7 @@ describe('largestOfFour function tests, declarative ', () => {
     });
 
     testParams.forEach(({ param, result }) => {
-        it(`should return ${JSON.stringify(result)} using ${JSON.stringify(param)}`, () => {
+        it(`should return ${JSON.stringify(result)} using the param: ${JSON.stringify(param)}`, () => {
             expect(largestOfFour(param)).toEqual(result)
         })
     });
@@ -30,7 +30,7 @@ describe('largestOfFour2 function tests, imperative ', () => {
     });
 
     testParams.forEach(({ param, result }) => {
-        it(`should return ${JSON.stringify(result)} using ${JSON.stringify(param)}`, () => {
+        it(`should return ${JSON.stringify(result)} using the param: ${JSON.stringify(param)}`, () => {
             expect(largestOfFour2(param)).toEqual(result)
         })
     });

@@ -21,8 +21,8 @@ describe('declarative factorialize function tests: ', () => {
         expect(factorialize).toBeDefined();
     });
 
-    testParams.forEach(({ param, result }, index) => {
-        it(`should return expected result using given params with testParams at index ${index}`, () => {
+    testParams.forEach(({ param, result }) => {
+        it(`should return ${JSON.stringify(result)} using the param: ${JSON.stringify(param)}`, () => {
             expect(factorialize(param)).toEqual(result)
         })
     });
@@ -35,8 +35,8 @@ describe('imperative factorialize2 function tests: ', () => {
         expect(factorialize2).toBeDefined();
     });
 
-    testParams.forEach(({ param, result }, index) => {
-        it(`should return expected result using given params with testParams at index ${index}`, () => {
+    testParams.forEach(({ param, result }) => {
+        it(`should return ${JSON.stringify(result)} using the param: ${JSON.stringify(param)}`, () => {
             expect(factorialize2(param)).toEqual(result)
         })
     });
