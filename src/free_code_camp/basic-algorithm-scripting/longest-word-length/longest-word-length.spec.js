@@ -25,7 +25,7 @@ describe('findLongestWordLength2 function tests, imperative style ', () => {
     });
 
     testParams.forEach(({ param, result }) => {
-        it(`should return ${JSON.stringify(result)} using ${JSON.stringify(param)}` , () => {
+        it(`should return ${JSON.stringify(result)} using the param: ${JSON.stringify(param)}` , () => {
             expect(findLongestWordLength2(param)).toEqual(result)
         })
     });
