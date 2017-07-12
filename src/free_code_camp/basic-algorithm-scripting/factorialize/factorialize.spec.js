@@ -21,10 +21,10 @@ describe('declarative factorialize function tests: ', () => {
         expect(factorialize).toBeDefined();
     });
 
-    it('should return numbers using the params equal to each result', () => {
-        testParams.forEach(({param, result}) => {
+    testParams.forEach(({ param, result }, index) => {
+        it(`should return expected result using given params with testParams at index ${index}`, () => {
             expect(factorialize(param)).toEqual(result)
-        });
+        })
     });
 
 });
@@ -35,10 +35,10 @@ describe('imperative factorialize2 function tests: ', () => {
         expect(factorialize2).toBeDefined();
     });
 
-    it('should return numbers using the params equal to each result', () => {
-        testParams.forEach(({param, result}) => {
+    testParams.forEach(({ param, result }, index) => {
+        it(`should return expected result using given params with testParams at index ${index}`, () => {
             expect(factorialize2(param)).toEqual(result)
-        });
+        })
     });
 
 });

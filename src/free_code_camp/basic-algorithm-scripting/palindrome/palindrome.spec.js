@@ -6,9 +6,9 @@ describe('palindrome function tests: ', () => {
         expect(palindrome).toBeDefined()
     });
 
-    it('should return expected boolean using the params equal to each result', () => {
-        testParams.forEach(({param, result}) => {
+    testParams.forEach(({ param, result }, index) => {
+        it(`should return expected result using given params with testParams at index ${index}`, () => {
             expect(palindrome(param)).toEqual(result)
-        });
+        })
     });
 });
