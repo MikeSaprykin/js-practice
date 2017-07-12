@@ -30,7 +30,13 @@ module.exports = function (config) {
         // Webpack Config at ./webpack.test.js
         webpack: testWebpackConfig,
         coverageReporter: {
-            type: 'in-memory'
+            reporters: [
+                // generates ./coverage/lcov.info
+                {type:'lcovonly', subdir: '.'},
+                // generates ./coverage/coverage-final.json
+                {type:'json', subdir: '.'},
+                {type: 'in-memory', subdir: '.'}
+            ]
         },
         remapCoverageReporter: {
             'text-summary': null,
