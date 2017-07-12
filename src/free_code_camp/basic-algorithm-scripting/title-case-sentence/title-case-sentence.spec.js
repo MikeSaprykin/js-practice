@@ -14,8 +14,8 @@ describe('titleCaseSentence function tests, declarative: ', () => {
         expect(titleCaseSentence).toBeDefined();
     });
 
-    testParams.forEach(({ param, result }, index) => {
-        it(`should return expected result using given params with testParams at index ${index}`, () => {
+    testParams.forEach(({ param, result }) => {
+        it(`should return ${JSON.stringify(result)} using ${JSON.stringify(param)}`, () => {
             expect(titleCaseSentence(param)).toEqual(result)
         })
     });
@@ -28,8 +28,8 @@ describe('titleCaseSentence2 function tests, imperative: ', () => {
         expect(titleCaseSentence2).toBeDefined();
     });
 
-    testParams.forEach(({ param, result }, index) => {
-        it(`should return expected result using given params with testParams at index ${index}`, () => {
+    testParams.forEach(({ param, result }) => {
+        it(`should return ${JSON.stringify(result)} using ${JSON.stringify(param)}`, () => {
             expect(titleCaseSentence2(param)).toEqual(result)
         })
     });
