@@ -48,6 +48,7 @@ Current folder structure looking: (version: 0.0.2)
 │       └── basic-algorithm-scripting               # Basic algorithm scripting tasks
 │           ├── factorialize                        # Factorialize functions and tests
 │           └── reverse-string                      # Reverse string functions and tests
+|           └── palindrome                          # Palindrome task and tests
 └── webpack.config.js                               # Webpack config file
 ```
  
