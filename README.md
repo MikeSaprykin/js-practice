@@ -32,6 +32,35 @@ Travis basic integration added, to run the tests, when pushed to master.
  utility functions from lodash library. Maybe will use Ramda at some point, because I'm a fan
  of functional programming =D
  
+## Project structure
+Current folder structure looking: (version: 0.0.2)
+```
+.
+├── README.md                                       # Project README
+├── config                                          # Webpack configuration files
+│   ├── helpers.js                                  # Helpers functions
+│   ├── karma.conf.js                               # Karma configuration file
+│   ├── test.entry.js                               # Karma test entry file
+│   └── webpack.test.js                             # Webpack testing config file
+├── coverage                                        # Folder with generated code coverage
+├── karma.conf.js                                   # Index Karma config file 
+├── package.json                                    # Project package.json
+├── src                                             # Project source files folder
+│   └── basic-algorithm-scripting                   # Folder of basic algorithm scripting tasks
+│       └── reverse-string                          # Reverse string task
+└── webpack.config.js                               # Webpack config file
+```
+ 
+## Scripts
+No fancy scripts yet. Just clone the repo and run
+```bash
+   # For single run of the tests
+   npm test 
+   
+   # For a tdd style
+   npm run tdd
+```
+ 
 ## TODO's
 * [ ] Add a landing page for the project
 * [ ] Finish webpack.config for deployment
