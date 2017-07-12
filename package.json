@@ -4,7 +4,7 @@
   "description": "Some practisec in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "istanbul-instrumenter-loader": "^2.0.0",
     "jasmine-core": "^2.6.4",
     "karma": "^1.7.0",
     "karma-coverage": "^1.1.1",
@@ -31,11 +32,13 @@
     "karma-mocha-reporter": "^2.2.3",
     "karma-remap-coverage": "^0.1.4",
     "karma-sourcemap-loader": "^0.3.7",
-    "karma-webpack": "^2.0.3",
+    "karma-webpack": "^2.0.4",
     "source-map-loader": "^0.2.1",
-    "webpack": "^3.1.0"
+    "webpack": "^3.2.0"
   },
   "dependencies": {
-    "karma-phantomjs-launcher": "^1.0.4"
+    "develop": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "save": "^2.3.1"
   }
 }

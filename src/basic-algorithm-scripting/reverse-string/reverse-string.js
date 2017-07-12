@@ -19,9 +19,3 @@ export const reverseString2 = (string) => {
   }
   return newString;
 };
-
-/**
- * Assignment the method to the global string prototype
- * @type {(p1:*)}
- */
-String.prototype.reverse = reverseString2;

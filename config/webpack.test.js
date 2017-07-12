@@ -110,7 +110,7 @@ module.exports = function (options) {
                     use: 'istanbul-instrumenter-loader',
                     include: helpers.root('src'),
                     exclude: [
-                        /\.(e2e|spec)\.ts$/,
+                        /\.(e2e|spec)\.js$/,
                         /node_modules/
                     ]
                 }
@@ -157,4 +157,4 @@ module.exports = function (options) {
             setImmediate: false
         }
     };
-}
+};
