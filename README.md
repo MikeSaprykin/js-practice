@@ -33,7 +33,7 @@ Travis basic integration added, to run the tests, when pushed to master.
  of functional programming =D
  
 ## Project structure
-Current folder structure looking: (version: 0.0.2)
+Current folder structure looking: (version: 0.0.4)
 ```
 .
 ├── .babelrc                                        # Babel configuration file
@@ -49,6 +49,7 @@ Current folder structure looking: (version: 0.0.2)
 │           ├── factorialize                        # Factorialize functions and tests
 │           └── reverse-string                      # Reverse string functions and tests
 |           └── palindrome                          # Palindrome task and tests
+|           └── longest-word-length                 # Longest word length task and tests
 └── webpack.config.js                               # Webpack config file
 ```
  
