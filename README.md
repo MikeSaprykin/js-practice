@@ -54,6 +54,7 @@ Current folder structure looking: (version: 0.1.0)
 |           └── repeat-string                       # Repeat string task and tests
 │           └── reverse-string                      # Reverse string functions and tests
 |           └── title-case-sentence                 # Title case sentece task
+|           └── truncate-string                     # Truncate string task with tests
 └── webpack.config.js                               # Webpack config file
 ```
  
