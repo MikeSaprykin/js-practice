@@ -46,6 +46,7 @@ Current folder structure looking: (version: 0.1.0)
 ├── src                                             # Project source files folder
 │   └── free_code_camp                              # FreeCodeCamp tasks folder
 │       └── basic-algorithm-scripting               # Basic algorithm scripting tasks
+│           ├── array-slasher                       # Array slasher task and tests
 │           ├── chunk-arrays-in-group               # Chunk arrays in group task and tests
 │           ├── confirm-ending                      # Confirm ending functions and tests
 │           ├── factorialize                        # Factorialize functions and tests
