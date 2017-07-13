@@ -1,4 +1,7 @@
-import { chunkArraysInGroup } from './chunk-arrays-in-group';
+import {
+    chunkArraysInGroup,
+    chunkArraysInGroup2
+} from './chunk-arrays-in-group';
 import testParams from './test.params';
 
 /**
@@ -12,9 +15,24 @@ describe('chunkArrayInGroups function tests: ', () => {
         expect(chunkArraysInGroup).toBeDefined()
     });
 
-    it('should return expected result', () => {
-        const { param, result } = testParams[0];
-        expect(chunkArraysInGroup(param[0], param[1])).toEqual(result)
+    testParams.forEach(({ param, result }) => {
+        it(`should return ${JSON.stringify(result)} using the param: ${JSON.stringify(param)}`, () => {
+            expect(chunkArraysInGroup(param[0], param[1])).toEqual(result)
+        })
+    });
+
+});
+
+describe('chunkArrayInGroups2 function tests: ', () => {
+
+    it('should be defined', () => {
+        expect(chunkArraysInGroup2).toBeDefined()
+    });
+
+    testParams.forEach(({ param, result }) => {
+        it(`should return ${JSON.stringify(result)} using the param: ${JSON.stringify(param)}`, () => {
+            expect(chunkArraysInGroup2(param[0], param[1])).toEqual(result)
+        })
     });
 
 });
