@@ -52,6 +52,7 @@ Current folder structure looking: (version: 0.1.0)
 │           ├── factorialize                        # Factorialize functions and tests
 |           ├── largest-numbers-in-arrays           # Largest numbers in arrays task
 |           ├── longest-word-length                 # Longest word length task and tests
+|           ├── mutations                           # Mutations task and tests
 |           ├── palindrome                          # Palindrome task and tests
 |           ├── repeat-string                       # Repeat string task and tests
 │           ├── reverse-string                      # Reverse string functions and tests
