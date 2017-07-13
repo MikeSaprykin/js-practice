@@ -46,14 +46,15 @@ Current folder structure looking: (version: 0.1.0)
 ├── src                                             # Project source files folder
 │   └── free_code_camp                              # FreeCodeCamp tasks folder
 │       └── basic-algorithm-scripting               # Basic algorithm scripting tasks
+│           ├── chunk-arrays-in-group               # Chunk arrays in group task and tests
 │           ├── confirm-ending                      # Confirm ending functions and tests
 │           ├── factorialize                        # Factorialize functions and tests
-|           └── largest-numbers-in-arrays           # Largest numbers in arrays task
-|           └── longest-word-length                 # Longest word length task and tests
-|           └── palindrome                          # Palindrome task and tests
-|           └── repeat-string                       # Repeat string task and tests
-│           └── reverse-string                      # Reverse string functions and tests
-|           └── title-case-sentence                 # Title case sentece task
+|           ├── largest-numbers-in-arrays           # Largest numbers in arrays task
+|           ├── longest-word-length                 # Longest word length task and tests
+|           ├── palindrome                          # Palindrome task and tests
+|           ├── repeat-string                       # Repeat string task and tests
+│           ├── reverse-string                      # Reverse string functions and tests
+|           ├── title-case-sentence                 # Title case sentece task
 |           └── truncate-string                     # Truncate string task with tests
 └── webpack.config.js                               # Webpack config file
 ```
