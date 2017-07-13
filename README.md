@@ -46,7 +46,7 @@ Current folder structure looking: (version: 0.1.0)
 ├── src                                             # Project source files folder
 │   └── free_code_camp                              # FreeCodeCamp tasks folder
 │       └── basic-algorithm-scripting               # Basic algorithm scripting tasks
-│           ├── chunky-monkey                       # Chunky monkey freecodecamp task and tests
+│           ├── chunk-arrays-in-group               # Chunk arrays in group task and tests
 │           ├── confirm-ending                      # Confirm ending functions and tests
 │           ├── factorialize                        # Factorialize functions and tests
 |           ├── largest-numbers-in-arrays           # Largest numbers in arrays task
