@@ -50,6 +50,7 @@ Current folder structure looking: (version: 0.1.0)
 │           ├── chunk-arrays-in-group               # Chunk arrays in group task and tests
 │           ├── confirm-ending                      # Confirm ending functions and tests
 │           ├── factorialize                        # Factorialize functions and tests
+│           ├── falsy-bouncer                       # Falsy bouncer task and tests
 |           ├── largest-numbers-in-arrays           # Largest numbers in arrays task
 |           ├── longest-word-length                 # Longest word length task and tests
 |           ├── mutations                           # Mutations task and tests
