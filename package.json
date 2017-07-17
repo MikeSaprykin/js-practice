@@ -1,6 +1,6 @@
 {
   "name": "js-stuff",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Some practisec in JavaScript",
   "main": "index.js",
   "scripts": {
@@ -34,6 +34,7 @@
     "karma-remap-coverage": "^0.1.4",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.4",
+    "phantomjs-polyfill-includes": "^1.0.2",
     "source-map-loader": "^0.2.1",
     "webpack": "^3.2.0"
   },
@@ -41,6 +42,7 @@
     "develop": "^1.0.0",
     "karma": "^1.7.0",
     "karma-phantomjs-launcher": "^1.0.4",
+    "karma-phantomjs-shim": "^1.4.0",
     "lodash": "^4.17.4",
     "save": "^2.3.1"
   }

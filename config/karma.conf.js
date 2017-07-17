@@ -8,7 +8,7 @@ module.exports = function (config) {
          *
          * available frameworks: https://npmjs.org/browse/keyword/karma-adapter
          */
-        frameworks: ['jasmine'],
+        frameworks: ['jasmine', 'phantomjs-shim'],
         // list of files to exclude
         exclude: [],
         client: {
