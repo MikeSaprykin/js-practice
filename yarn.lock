@@ -3038,6 +3038,10 @@ performance-now@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
 
+phantomjs-polyfill-includes@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/phantomjs-polyfill-includes/-/phantomjs-polyfill-includes-1.0.2.tgz#24ccdbcc70694b75b86752fb816c0f11f6dc7c06"
+
 phantomjs-prebuilt@^2.1.7:
   version "2.1.14"
   resolved "https://registry.yarnpkg.com/phantomjs-prebuilt/-/phantomjs-prebuilt-2.1.14.tgz#d53d311fcfb7d1d08ddb24014558f1188c516da0"
