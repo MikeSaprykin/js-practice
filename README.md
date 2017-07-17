@@ -33,37 +33,38 @@ Travis basic integration added, to run the tests, when pushed to master.
  of functional programming =D
  
 ## Project structure
-Current folder structure looking: (version: 0.1.0)
+Current folder structure looking: (version: 0.2.0)
 ```
 .
-├── .babelrc                                        # Babel configuration file
-├── .travis.yml                                     # Travis-CI configuration file
-├── README.md                                       # Project README
-├── config                                          # Webpack configuration files
-├── coverage                                        # Folder with generated code coverage   
-├── karma.conf.js                                   # Index Karma config file
-├── package.json                                    # Project package.json
-├── src                                             # Project source files folder
-│   └── free_code_camp                              # FreeCodeCamp tasks folder
-│       └── basic-algorithm-scripting               # Basic algorithm scripting tasks
-│           ├── array-slasher                       # Array slasher task and tests
-│           ├── chunk-arrays-in-group               # Chunk arrays in group task and tests
-│           ├── caesars-cipher                      # Caesars cipher task and tests
-│           ├── confirm-ending                      # Confirm ending functions and tests
-│           ├── factorialize                        # Factorialize functions and tests
-│           ├── falsy-bouncer                       # Falsy bouncer task and tests
-|           ├── get-index-of-ins-number             # Get index of inserted number task and tests
-|           ├── largest-numbers-in-arrays           # Largest numbers in arrays task
-|           ├── longest-word-length                 # Longest word length task and tests
-|           ├── mutations                           # Mutations task and tests
-|           ├── palindrome                          # Palindrome task and tests
-|           ├── repeat-string                       # Repeat string task and tests
-│           ├── reverse-string                      # Reverse string functions and tests
-│           ├── sum-all-numbers                     # Sum all numbers task and tests
-│           ├── seek-and-destroy                    # Seek and destroy task implementation and tests
-|           ├── title-case-sentence                 # Title case sentece task
-|           └── truncate-string                     # Truncate string task with tests
-└── webpack.config.js                               # Webpack config file
+├── README.md                                                   # Project README
+├── config                                                      # Webpack and Karma configuration files
+├── coverage                                                    # Code coverage folder
+├── karma.conf.js                                               # Karma configuration file
+├── package.json                                                # Project package.json
+├── src                                                         # Project source files folder
+│   └── free_code_camp                                          # Free Code Camp tasks folder
+│       ├── basic-algorithm-scripting                           # Basic algorithm scripting tasks
+│       │   ├── array-slasher                                   # Array slasher task and tests
+│       │   ├── caesars-cipher                                  # Caesars cipher formatter task and tests
+│       │   ├── chunk-arrays-in-group                           # Chunk arrays in group task and tests
+│       │   ├── confirm-ending                                  # Confirm ending tasks and tests
+│       │   ├── factorialize                                    # Factorialize task and tests
+│       │   ├── falsy-bouncer                                   # Falsy bouncer function task and tests
+│       │   ├── get-index-of-ins-number                         # Get index of inserted number task and tests
+│       │   ├── largest-numbers-in-arrays                       # Largest numbers in arrays task and tests
+│       │   ├── longest-word-length                             # Longest word length task and tests
+│       │   ├── mutations                                       # Mutations task and tests
+│       │   ├── palindrome                                      # Palindrome task and tests
+│       │   ├── repeat-string                                   # Repeat string task and tests
+│       │   ├── reverse-string                                  # Reverse string task and tests
+│       │   ├── seek-and-destroy                                # Seek and destroy task and tests
+│       │   ├── title-case-sentence                             # Title case sentence task and tests
+│       │   └── truncate-string                                 # Truncate string task and tests
+│       └── intermediate-algorithm-scripting                    # Itermediate Algorithm scripting tasks
+│           ├── diff-two-array                                  # Two array difference task and tests
+│           └── sum-all-numbers                                 # Sum all numbers in range task and tests
+├── webpack.config.js                                           # Webpack config entry file
+└── yarn.lock                                                   # Yarn locker file
 ```
  
 ## Scripts
