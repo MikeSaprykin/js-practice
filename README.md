@@ -48,15 +48,18 @@ Current folder structure looking: (version: 0.1.0)
 │       └── basic-algorithm-scripting               # Basic algorithm scripting tasks
 │           ├── array-slasher                       # Array slasher task and tests
 │           ├── chunk-arrays-in-group               # Chunk arrays in group task and tests
+│           ├── caesars-cipher                      # Caesars cipher task and tests
 │           ├── confirm-ending                      # Confirm ending functions and tests
 │           ├── factorialize                        # Factorialize functions and tests
 │           ├── falsy-bouncer                       # Falsy bouncer task and tests
+|           ├── get-index-of-ins-number             # Get index of inserted number task and tests
 |           ├── largest-numbers-in-arrays           # Largest numbers in arrays task
 |           ├── longest-word-length                 # Longest word length task and tests
 |           ├── mutations                           # Mutations task and tests
 |           ├── palindrome                          # Palindrome task and tests
 |           ├── repeat-string                       # Repeat string task and tests
 │           ├── reverse-string                      # Reverse string functions and tests
+│           ├── sum-all-numbers                     # Sum all numbers task and tests
 │           ├── seek-and-destroy                    # Seek and destroy task implementation and tests
 |           ├── title-case-sentence                 # Title case sentece task
 |           └── truncate-string                     # Truncate string task with tests
