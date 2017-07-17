@@ -51,6 +51,7 @@ Current folder structure looking: (version: 0.1.0)
 │           ├── confirm-ending                      # Confirm ending functions and tests
 │           ├── factorialize                        # Factorialize functions and tests
 │           ├── falsy-bouncer                       # Falsy bouncer task and tests
+|           ├── get-index-of-ins-number             # Get index of inserted number task and tests
 |           ├── largest-numbers-in-arrays           # Largest numbers in arrays task
 |           ├── longest-word-length                 # Longest word length task and tests
 |           ├── mutations                           # Mutations task and tests
