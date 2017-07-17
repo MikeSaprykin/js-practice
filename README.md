@@ -57,6 +57,7 @@ Current folder structure looking: (version: 0.1.0)
 |           ├── palindrome                          # Palindrome task and tests
 |           ├── repeat-string                       # Repeat string task and tests
 │           ├── reverse-string                      # Reverse string functions and tests
+│           ├── seek-and-destroy                    # Seek and destroy task implementation and tests
 |           ├── title-case-sentence                 # Title case sentece task
 |           └── truncate-string                     # Truncate string task with tests
 └── webpack.config.js                               # Webpack config file

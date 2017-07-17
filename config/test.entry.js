@@ -1,3 +1,4 @@
+require('phantomjs-polyfill-includes');
 /**
  * Ok, this is kinda crazy. We can use the context method on
  * require that webpack created in order to tell webpack
