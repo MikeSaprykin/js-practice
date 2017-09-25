@@ -1,6 +1,7 @@
 import {
     largestOfFour,
-    largestOfFour2
+    largestOfFour2,
+    largestOfFour3
 } from './largest-numbers-in-arrays';
 import testParams from './test.params';
 
@@ -23,7 +24,7 @@ describe('largestOfFour function tests, declarative ', () => {
 
 });
 
-describe('largestOfFour2 function tests, imperative ', () => {
+describe('largestOfFour2 function tests, declarative with Math.max ', () => {
 
     it('should be defined', () => {
         expect(largestOfFour2).toBeDefined();
@@ -32,6 +33,20 @@ describe('largestOfFour2 function tests, imperative ', () => {
     testParams.forEach(({ param, result }) => {
         it(`should return ${JSON.stringify(result)} using the param: ${JSON.stringify(param)}`, () => {
             expect(largestOfFour2(param)).toEqual(result)
+        })
+    });
+
+});
+
+describe('largestOfFour3 function tests, imperative ', () => {
+
+    it('should be defined', () => {
+        expect(largestOfFour3).toBeDefined();
+    });
+
+    testParams.forEach(({ param, result }) => {
+        it(`should return ${JSON.stringify(result)} using the param: ${JSON.stringify(param)}`, () => {
+            expect(largestOfFour3(param)).toEqual(result)
         })
     });
 
