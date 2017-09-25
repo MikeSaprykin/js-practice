@@ -5,20 +5,25 @@
  * @param array
  * @return {Array}
  */
-export const largestOfFour = (array) => {
-    return array.reduce((acc, curr) => {
-        return acc.concat(curr.sort((a, b) => b - a)[0]);
-    }, []);
-};
+export const largestOfFour = (array) => array.map(element => element.sort((a, b) => b - a)[0]);
 
 /**
  * function to get an array of largest numbers in four arrays
  *
- * imperative style style
+ * Declarative style using Math.max and spread operator
  * @param array
  * @return {Array}
  */
-export const largestOfFour2 = (array) => {
+export const largestOfFour2 = (array) => array.map(numbers => Math.max(...numbers));
+
+/**
+ * function to get an array of largest numbers in four arrays
+ *
+ * imperative style
+ * @param array
+ * @return {Array}
+ */
+export const largestOfFour3 = (array) => {
     const resultArray = [];
 
     for (let i = 0; i < array.length; i++) {
