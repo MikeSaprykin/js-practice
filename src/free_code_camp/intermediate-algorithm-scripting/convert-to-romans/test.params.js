@@ -1,42 +1,42 @@
 export default [
     {
         param: [2],
-        result: ['II']
+        result: 'II'
     },
     {
         param: [4],
-        result: ['IV']
+        result: 'IV'
     },
     {
         param: [5],
-        result: ['V']
+        result: 'V'
     },
     {
         param: [9],
-        result: ['IX']
+        result: 'IX'
     },
     {
         param: [29],
-        result: ['XXIX']
+        result: 'XXIX'
     },
     {
         param: [68],
-        result: ['LXVIII']
+        result: 'LXVIII'
     },
     {
         param: [500],
-        result: ['D']
+        result: 'D'
     },
     {
         param: [891],
-        result: ['DCCCXCI']
+        result: 'DCCCXCI'
     },
     {
         param: [1023],
-        result: ['MXXIII']
+        result: 'MXXIII'
     },
     {
         param: [3999],
-        result: ['MMMCMXCIX']
+        result: 'MMMCMXCIX'
     }
 ]
